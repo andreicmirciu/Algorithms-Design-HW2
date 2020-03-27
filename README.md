@@ -1,8 +1,7 @@
 # Algorithms-Design-HW2
 Solved several algorithmic problems on graphs.
 
-Problema 1:
-
+###### Problema 1:
 	Am ales sa reprezint graful ca un ArrayList<Edge>, unde Edge este o clasa
 ce contine cele doua noduri aferente unei muchii. Ideea principala de rezolvare
 a exercitiului presupune sortarea crescatoare a vectorului de distante oferit,
@@ -24,9 +23,7 @@ ArrayList-ul de perechi pana gasesc nodul cu distanta cautata (acesta va
 reprezenta nodul 2), iar pentru nodul 1 ma folosesc de un nod deja pus in graf.
 Complexitatea algoritmului descris este O(N^2) in cazul cel mai defavorabil, 
 unde N reprezinta numarul de noduri din graf.
-
-	Problema 2:
-
+###### Problema 2:
 	Pentru a putea calcula aria maxima din matrice (zona cu cele mai multe
 casute vecine care respecta conditia ca diferenta dintre valorea maxima si
 valoarea minima sa fie cel mult K), ma folosesc de o matrice visited in care
@@ -44,8 +41,7 @@ calculul ariei pentru o noua celula, am grija sa resetez matricea visited.
 Complexitatea algoritmului este O(N^2 * M^2) in cazul cel mai defavorabil,
 unde N reprezinta numarul de linii, respectiv M numarul de coloane din matrice.
 
-	Problema 3:
-
+###### Problema 3:
 	Pentru calcularea costului minim al unui drum de la nodul 1 la nodul N,
 m-am folosit de algoritmul lui Dijkstra (nu exista muchii de cost negativ),
 pe care l-am modificat astfel incat sa se tina cont de penalizarile adaugate
@@ -61,10 +57,9 @@ nodurile se afla ordonate crescator dupa distanta pana la nodul sursa.
 Complexitatea algoritmului este de aproximativ O(NlogN + MlogN), unde N 
 reprezinta numarul de noduri, respectiv M numarul de muchii din graf.
 
-	Problema 4:
+###### Problema 4:
 
 	Am folosit acelasi cod ca la problema 3.
-
 	Mentionez ca am folosit scheletul de laborator pentru structurarea 
 fisierelor .java si rezolvarea problemelor, respectiv clasa MyScanner
 oferita, pentru o citire mai rapida a datelor de intrare.
